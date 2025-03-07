@@ -37,37 +37,37 @@ font-family: 'Noctura', sans-serif;
 
 .marquesina img {
     max-width: 100%;
-    height: 50px; /* Ajusta la altura si lo necesitas */
-    object-fit: contain; /* Evita que las imágenes se deformen */
+    height: 50px; 
+    object-fit: contain; 
 }
 
 .nav-text {
-    font-size: 1.5rem; /* Aumenta el tamaño de las palabras */
-    color: white; /* Hace que se vean blancas */
-    margin-left: 20px; /* Espaciado entre palabras */
+    font-size: 1.5rem; 
+    color: white; 
+    margin-left: 20px;
 }
 .carousel {
-    width: 100%; /* Ahora ocupa todo el ancho disponible */
-    margin: 0 auto; /* Centrado del carrusel */
+    width: 100%; 
+    margin: 0 auto; 
 }
 
 .carousel-inner img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Evita los bordes blancos asegurando que la imagen cubra bien */
+    object-fit: cover;
 } 
 
 #cartas2 {
-    box-sizing: border-box; /* Usa border-box si no tienes una razón para content-box */
+    box-sizing: border-box; 
     background-image: url("../img/fondos.jpg");
-    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* No repite la imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     
     padding: 0;
     
     width: 100%;
-    min-height: 100vh; /* Asegura que ocupe al menos toda la ventana */
+    min-height: 100vh; 
 }
 
 #botonaco{ 
@@ -79,7 +79,7 @@ height: 50px;
 }
 .card-img-top {
     width: 100%;
-    height: 200px; /* Ajusta la altura según necesites */
+    height: 200px; 
     object-fit: cover;
 }
 
@@ -89,9 +89,9 @@ height: 50px;
     } 
     .marquee {
         display: flex;
-        gap: 50px; /* Espacio entre imágenes */
-        animation: slide 20s linear infinite; /* Animación continua */
-        width: max-content; /* Hace que se expanda según el contenido */
+        gap: 50px; 
+        animation: slide 20s linear infinite; 
+        width: max-content; 
     }
     
     .bd-footer {
@@ -115,28 +115,28 @@ height: 50px;
    
     .d-flex {
         justify-content: center;
-        flex-wrap: wrap; /* Esto asegura que las cards se distribuyan bien */
+        flex-wrap: wrap; 
     }
     
     .card {
-        max-width: 18rem; /* Asegura que las cards tengan un tamaño adecuado */
-        width: 100%; /* Permite que se ajusten a pantallas más pequeñas */
+        max-width: 18rem; 
+        width: 100%; 
         margin: 10px;
     }
     
     #cartas {
         display: flex;
         background-image: url("../img/fondos.jpg"); 
-        justify-content: center; /* Asegura que el contenido esté centrado */
-        gap: 20px; /* Puedes agregar un pequeño espacio entre las cards */
+        justify-content: center; 
+        gap: 20px;
         background-size: cover !important;
-        flex-wrap: wrap; /* Permite que las cards se ajusten si es necesario */
+        flex-wrap: wrap; 
         box-sizing: content-box;
         background-repeat: no-repeat;
     }
     #cartas .card-img-top {
         width: 100%;
-        height: 250px; /* Puedes ajustar esta altura según te convenga */
-        object-fit: cover; /* Mantiene la proporción y recorta el exceso */
+        height: 250px; 
+        object-fit: cover; 
     }
     
