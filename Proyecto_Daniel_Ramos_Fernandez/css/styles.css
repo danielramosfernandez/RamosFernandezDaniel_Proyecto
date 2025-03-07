@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'Noctura';
+    src: url('../font_types/NocturaGeorgiaSansClean.ttf') format('truetype');
+}
+#linea::after{  
+
+content: '';
+display: block;
+background: linear-gradient(rgb(0, 255, 255),white,red);
+width: 100%;
+height: 10px;
+
+}
+#fotoGrande{ 
+    height: 400px;
+    width: 750px;
+}
+nav,h1,h2,h3,h4,h5{ 
+font-family: 'Noctura', sans-serif;
+}
+
+.marquesina {
+    display: flex;
+    gap: 50px; /* Espacio entre imágenes */
+    animation: slide 20s linear infinite;
+    width: max-content;
+    overflow: hidden;
+}
+
+.marquesina-contenido {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 60s linear infinite;
+}
+
+
+.marquesina img {
+    max-width: 100%;
+    height: 50px; /* Ajusta la altura si lo necesitas */
+    object-fit: contain; /* Evita que las imágenes se deformen */
+}
+
+.nav-text {
+    font-size: 1.5rem; /* Aumenta el tamaño de las palabras */
+    color: white; /* Hace que se vean blancas */
+    margin-left: 20px; /* Espaciado entre palabras */
+}
+.carousel {
+    width: 100%; /* Ahora ocupa todo el ancho disponible */
+    margin: 0 auto; /* Centrado del carrusel */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Evita los bordes blancos asegurando que la imagen cubra bien */
+} 
+
+#cartas2 {
+    box-sizing: border-box; /* Usa border-box si no tienes una razón para content-box */
+    background-image: url("../img/fondos.jpg");
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    
+    padding: 0;
+    
+    width: 100%;
+    min-height: 100vh; /* Asegura que ocupe al menos toda la ventana */
+}
+
+#botonaco{ 
+    background: linear-gradient(rgb(0, 255, 255),white,red);
+}
+#patrocinador1{ 
+width: 178px;
+height: 50px;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta la altura según necesites */
+    object-fit: cover;
+}
+
+#patrocinador2{ 
+    width: 178px;
+    height: 50px;
+    } 
+    .marquee {
+        display: flex;
+        gap: 50px; /* Espacio entre imágenes */
+        animation: slide 20s linear infinite; /* Animación continua */
+        width: max-content; /* Hace que se expanda según el contenido */
+    }
+    
+    .bd-footer {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    @keyframes slide {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+   
+    .d-flex {
+        justify-content: center;
+        flex-wrap: wrap; /* Esto asegura que las cards se distribuyan bien */
+    }
+    
+    .card {
+        max-width: 18rem; /* Asegura que las cards tengan un tamaño adecuado */
+        width: 100%; /* Permite que se ajusten a pantallas más pequeñas */
+        margin: 10px;
+    }
+    
+    #cartas {
+        display: flex;
+        background-image: url("../img/fondos.jpg"); 
+        justify-content: center; /* Asegura que el contenido esté centrado */
+        gap: 20px; /* Puedes agregar un pequeño espacio entre las cards */
+        background-size: cover !important;
+        flex-wrap: wrap; /* Permite que las cards se ajusten si es necesario */
+        box-sizing: content-box;
+        background-repeat: no-repeat;
+    }
+    #cartas .card-img-top {
+        width: 100%;
+        height: 250px; /* Puedes ajustar esta altura según te convenga */
+        object-fit: cover; /* Mantiene la proporción y recorta el exceso */
+    }
+    
